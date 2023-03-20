@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#86F1FF"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Id No:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_weight="3"
+        />
+
+    <TextView
+        android:id="@+id/edid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="07"
+        android:layout_weight="1"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="3"
+            />
+
+        <TextView
+            android:id="@+id/edName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rafi"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="3"
+            />
+
+        <TextView
+            android:id="@+id/edEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="example@gmail.com"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="3"
+            />
+
+        <TextView
+            android:id="@+id/edAge"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="23"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        >
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_weight="2"
+            android:layout_marginEnd="5dp"
+            android:backgroundTint="#4CAF50"
+            />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_weight="2"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#A10B3E"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
